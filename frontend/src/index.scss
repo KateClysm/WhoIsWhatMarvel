@@ -1,4 +1,5 @@
 $black-color: #0a0a0a;
+$grey-color: #181818;
 $white-color: #F3F3F3;
 $purple-color: #e21460;
 $blue-color: #012e88;
@@ -6,7 +7,7 @@ $sky-color: #00b1c5;
 $green-color: #00c54c;
 $orange-color: #ff9100;
 $red-color: #ff0000;
-$maroon-color: #c40000;
+$maroon-color: #ad0000;
 
 $font-size-mobile: 8px;
 $font-size-tablet: 12px;
@@ -19,8 +20,8 @@ $font-size-huge-desktop: 20px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.1rem;
+  color: $white-color;
 }
 
 html, body {
@@ -38,22 +39,29 @@ html {font-size: $font-size-mobile;}
 
 .container-app{
   text-align: center;
-  padding: 3vh;
   height: 100vh;
 
-  .title{
-    height: 10vh;
-    font-size: 4rem;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 0.5rem;
-    color: $blue-color;
-  }
+  .container-title{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $maroon-color;
 
+    .title{
+      font-size: 4rem;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 0.5rem;
+      color: $white-color;
+      text-shadow: $black-color 1px 0 10px;
+    }
+  }
+  
   .window{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 87vh;
+    height: 85vh;
   }
 
 }
@@ -61,6 +69,15 @@ h2{
   font-family: 'Bangers', cursive;   
   letter-spacing: 0.3rem;
 }
-p{
-  font-weight: bolder;
+p, h3, button{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px){
+  .container-app{
+    .title{
+      font-size: 5rem;
+    }
+  }
 }

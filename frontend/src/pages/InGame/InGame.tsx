@@ -9,7 +9,7 @@ const InGame: React.FC = () => {
         <div className="character-card">
           <div className="character-image"></div>
           <h3>Wanda Maximoff (Scarlet Witch)</h3>
-          <p>Character Quote</p>
+          <p>"No more mutants!"</p>
           
         </div>
 

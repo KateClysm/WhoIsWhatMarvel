@@ -22,8 +22,6 @@ const Homepage: React.FC = () => {
             <button className="c25">25 Characters</button>
             <button className="c50">50 Characters</button>
             <button className="c75">75 Characters</button>
-            <button className="c100">100 Characters</button>
-            <button className="call">All Characters</button>
         </div>
 
       </div>

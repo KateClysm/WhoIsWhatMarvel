@@ -8,7 +8,9 @@ const App: React.FC = () => {
   const Layout = () => {
     return (
       <div className="container-app">
-        <h1 className="title">¿WHO IS WHAT?</h1>
+        <div className="container-title">
+          <h1 className="title">¿WHO IS WHAT?</h1>
+        </div>
 
         <div className="window">
           <Outlet />

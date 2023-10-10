@@ -8,6 +8,7 @@
     row-gap: 1rem;
     width: 100%;
     height: 80vh;
+    background-color: $grey-color;
 
     .character-card{
         display: flex;
@@ -15,13 +16,14 @@
         justify-content: flex-start;
         align-items: center;
         row-gap: 1rem;
-        height: 80%;
-        width: 80%;
-
+        height: 70%;
+        width: 70%;
+        background-color: $maroon-color;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
 
         h3{
             font-size: 1.5rem; 
-            font-family: 'Bangers', cursive;   
             letter-spacing: 0.3rem;
         }
 
@@ -29,48 +31,55 @@
             background-image: url(https://4kwallpapers.com/images/wallpapers/wanda-maximoff-elizabeth-olsen-scarlet-witch-marvel-comics-1242x2688-8520.jpg);
             background-size: cover;
             background-repeat: no-repeat;
-            width: 80%;
-            height: 80%;
-            border-radius: 0.3rem;
+            width: 100%;
+            height: 100%;
+            border-radius: 0.5rem;
         }
     }
 
     .your-guess{
-        height: 20%;
+        background-color: $white-color;
+        padding: 1rem;
+        border-radius: 0.3rem;
+        width: 70%;
 
         p{
             font-size: 1.5rem;
             padding-bottom: 1.5rem;
+            color: $black-color;
         }
 
         .container-guess-buttons{
             display: flex;
+            justify-content: center;
             column-gap: 1rem;
 
             button{
                 outline: none;
-                border: 1px solid $white-color;
-                color: $white-color;
                 cursor: pointer;
                 border-radius: 50px;
                 padding: 0.6rem 2rem;
+                background-color: $black-color;
 
                 &:hover{
-                    background-color: $black-color;
+                    background-color: $white-color;
                     transition: 0.3s;
                 }
             }
 
             .ghero{
-                background-color: $green-color;
+                border: 1.5px solid $sky-color;
+                color: $sky-color;
             }
 
             .ganti{
-                background-color: $purple-color;
+                border: 1.5px solid $purple-color;
+                color: $purple-color;
             }
 
             .gvillain{
-                background-color: $maroon-color;
+                border: 1.5px solid $red-color;
+                color: $red-color;
             }
         }
     }
@@ -79,12 +88,12 @@
 @media (min-width: 768px){
     .container-ingame{
         flex-direction: row;
-        column-gap: 1rem;
+        column-gap: 2rem;
 
         .character-card{
             row-gap: 1.5rem;
             height: 90%;
-            width: 45%;
+            width: 20%;
     
     
             h3{
@@ -92,9 +101,8 @@
             }
     
             .character-image{
-                width: 45%;
-                height: 90%;
-                border-radius: 0.3rem;
+                width: 100%;
+                height: 100%;
             }
         }
     
@@ -102,6 +110,10 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            height: 90%;
+            width: fit-content;
+            padding: 1rem 2rem;
+            
     
             .container-guess-buttons{
                 flex-direction: column;
