@@ -1,0 +1,527 @@
+[
+    {
+        "Id": 1,
+        "Name": "Spider-Man",
+        "Image": "https://people.com/thmb/DuL31bIqPpp1fpvi241Q3C1w9eI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(959x52:961x54):format(webp)/spider-man-2000-d37af6fb0a1d4b789c5b3bca321c1241.jpg",
+        "Alignment": "Hero",
+        "Quote": "I'm your friendly neighborhood Spider-Man!"
+      },
+      {
+        "Id": 2,
+        "Name": "Iron Man",
+        "Image": "https://www.cinemascomics.com/wp-content/uploads/2022/11/Iron-Man-Marvel.jpg",
+        "Alignment": "Hero",
+        "Quote": "Genius, billionaire, playboy, philanthropist."
+      },
+      {
+        "Id": 3,
+        "Name": "Hulk",
+        "Image": "https://img.freepik.com/fotos-premium/increible-hulk-fondos-pantalla-fondos-pantalla-hd_853177-21137.jpg",
+        "Alignment": "Hero",
+        "Quote": "Hulk smash!"
+      },
+      {
+        "Id": 4,
+        "Name": "Thor",
+        "Image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/05/Thor-156.jpg?fit=1200%2C675&quality=50&strip=all&ssl=1",
+        "Alignment": "Hero",
+        "Quote": "By Odin, I will smite thee!"
+      },
+      {
+        "Id": 5,
+        "Name": "Loki (From the movies)",
+        "Image": "https://i.insider.com/60c0bb836b60c70019c29cf0?width=700",
+        "Alignment": "villain",
+        "Quote": "Glorious purpose!"
+      },
+      {
+        "Id": 6,
+        "Name": "Loki (From the serie 'Loki')",
+        "Image": "https://elcomercio.pe/resizer/GVmsvUvB9CcPkl9ve1CMXnIn1IU=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/PJK54BMEE5FAHEL7VDU7COIVIQ.jpg",
+        "Alignment": "Anti-hero",
+        "Quote": "Glorious purpose!"
+      },
+      {
+        "Id": 7,
+        "Name": "Black Widow",
+        "Image": "https://indiehoy.com/wp-content/uploads/2020/09/black-window2.jpg",
+        "Alignment": "Hero",
+        "Quote": "In the Avengers' waiting room."
+      },
+      {
+        "Id": 8,
+        "Name": "Captain America",
+        "Image": "https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg",
+        "Alignment": "Hero",
+        "Quote": "Avengers, assemble!"
+      },
+      {
+        "Id": 9,
+        "Name": "Doctor Strange",
+        "Image": "https://i.pinimg.com/1200x/c8/c1/70/c8c170e6e4060dbef8d22ef20635299e.jpg",
+        "Alignment": "Hero",
+        "Quote": "It's time to break the rules."
+      },
+      {
+        "Id": 10,
+        "Name": "Black Panther",
+        "Image": "https://lumiere-a.akamaihd.net/v1/images/h_blackpanther_mobile_19754_57fe2288.jpeg?region=0,0,640,480",
+        "Alignment": "Hero",
+        "Quote": "Wakanda forever."
+      },
+      {
+        "Id": 11,
+        "Name": "Green Goblin",
+        "Image": "https://www.alexrossart.com/cdn/shop/products/GREENGOBLIN.jpg?v=1675177738",
+        "Alignment": "Villain",
+        "Quote": "Up, up, and away!"
+      },
+      {
+        "Id": 12,
+        "Name": "Wolverine",
+        "Image": "https://cdn.eldestapeweb.com/eldestape/072022/1656967057221/wolverine-jpg..jpg",
+        "Alignment": "Hero",
+        "Quote": "I'm the best at what I do!"
+      },
+      {
+        "Id": 13,
+        "Name": "Captain Marvel",
+        "Image": "https://wallpapers.com/images/featured/captain-marvel-iphone-avia7t3bou96vw48.jpg",
+        "Alignment": "Hero",
+        "Quote": "The brightest star in the universe!"
+      },
+      {
+        "Id": 14,
+        "Name": "Doctor Doom",
+        "Image": "https://sm.ign.com/ign_latam/screenshot/default/doom_wgmk.jpg",
+        "Alignment": "Villain",
+        "Quote": "Latveria will be mine!"
+      },
+      {
+        "Id": 15,
+        "Name": "Deadpool",
+        "Image": "https://www.fayerwayer.com/resizer/k9416iTlIswpB8NuaYCA5nunCaM=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/OCHUVADGABGXRD35PGDIRVGWBA.jpg",
+        "Alignment": "Anti-hero",
+        "Quote": "Get ready for chimichangas!"
+      },
+      {
+        "Id": 16,
+        "Name": "Storm",
+        "Image": "https://www.mundodeportivo.com/alfabeta/hero/2020/07/storm.jpg?width=1200",
+        "Alignment": "Hero",
+        "Quote": "I will control the elements!"
+      },
+      {
+        "Id": 17,
+        "Name": "Magneto",
+        "Image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Magneto.X-Men-Series.webp",
+        "Alignment": "Villain",
+        "Quote": "The age of mutants has arrived."
+      },
+      {
+        "Id": 18,
+        "Name": "Scarlet Witch",
+        "Image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/97/Scarlet_Witch.jpg/revision/latest?cb=20220501012641",
+        "Alignment": "Anti-hero",
+        "Quote": "No more mutants!"
+      },
+      {
+        "Id": 19,
+        "Name": "Groot",
+        "Image": "https://i.postimg.cc/1zkDbG6z/Marvelx-Grootx-inx-Guardiansx-ofx-Thex-Galaxyx-Treex-Manx-Avengersx-40cmx-Bigx-Sizex.jpg",
+        "Alignment": "Hero",
+        "Quote": "I am Groot."
+      },
+      {
+        "Id": 20,
+        "Name": "Rocket Raccoon",
+        "Image": "https://www.fayerwayer.com/resizer/QOsYymZnF_uQQP-S4NwP2fBF3_Q=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/KGQMI2J73JCA5LBFR7SS5P7L4I.jpeg",
+        "Alignment": "Hero",
+        "Quote": "Blam! I'm your worst enemy!"
+      },
+      {
+        "Id": 21,
+        "Name": "Mysterio",
+        "Image": "https://e1.pxfuel.com/desktop-wallpaper/505/42/desktop-wallpaper-mysterio-marvel-posted-by-zoey-walker-mysterio-iphone.jpg",
+        "Alignment": "Villain",
+        "Quote": "Everything is an illusion."
+      },
+      {
+        "Id": 22,
+        "Name": "Ant-Man",
+        "Image": "https://hips.hearstapps.com/hmg-prod/images/ant-man-quantumania-ciencia-marvel-1676622947.jpg?crop=0.440xw:1.00xh;0.263xw,0&resize=1200:*",
+        "Alignment": "Hero",
+        "Quote": "It's not the size that counts."
+      },
+      {
+        "Id": 23,
+        "Name": "Jean Grey",
+        "Image": "https://ogimg.infoglobo.com.br/rioshow/23654337-bf8-816/FT1086A/fenix4.jpg",
+        "Alignment": "Hero",
+        "Quote": "The Phoenix consumes all."
+      },
+      {
+        "Id": 24,
+        "Name": "Venom",
+        "Image": "https://hips.hearstapps.com/hmg-prod/images/venom-2-fotogramas-1634239260.png?crop=1xw:1xh;center,top&resize=1200:*",
+        "Alignment": "Anti-hero",
+        "Quote": "We are Venom."
+      },
+      {
+        "Id": 25,
+        "Name": "Thanos",
+        "Image": "https://static.wikia.nocookie.net/marveldatabase/images/b/bc/Thanos_%28Earth-199999%29_from_Avengers_Infinity_War_-_The_Official_Movie_Special_001.jpg/revision/latest?cb=20180501065444",
+        "Alignment": "Villain",
+        "Quote": "I am inevitable."
+      },
+      {
+        "Id": 26,
+        "Name": "Gamora",
+        "Image": "https://i.pinimg.com/550x/64/22/ab/6422abd3633b7e561d495abb045ca479.jpg",
+        "Alignment": "Hero",
+        "Quote": "I will avenge my people."
+      },
+      {
+        "Id": 27,
+        "Name": "Cyclops",
+        "Image": "https://static.wikia.nocookie.net/x-men/images/9/92/Tumblr_lh7m7dGM931qbo7wbo1_1280.jpg/revision/latest?cb=20150830051446",
+        "Alignment": "Hero",
+        "Quote": "Optic blast!"
+      },
+      {
+        "Id": 28,
+        "Name": "Nick Fury",
+        "Image": "https://lumiere-a.akamaihd.net/v1/images/nick_fury_003_b82e2da3.jpeg",
+        "Alignment": "Hero",
+        "Quote": "I've got my eye on you."
+      },
+      {
+        "Id": 29,
+        "Name": "Red Skull",
+        "Image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/05/did-nazi-it-10-facts-about-the-red-skull-the-mcu-never-explored-feature-image.jpg",
+        "Alignment": "Villain",
+        "Quote": "Hail Hydra!"
+      },
+      {
+        "Id": 30,
+        "Name": "Daredevil",
+        "Image": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/2M4UGVDUPJEO7PCGCNF5TK36MY.jpeg",
+        "Alignment": "Hero",
+        "Quote": "I'm not afraid of the dark."
+      },
+      {
+        "Id": 31,
+        "Name": "Punisher",
+        "Image": "https://www.infobae.com/new-resizer/NGwd0G4Y8jSJC_evQX-wI2k6UlU=/1200x900/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/PSV6LJU7M5FY3LMERUFJ455UPI.jpg",
+        "Alignment": "Anti-hero",
+        "Quote": "Justice is best served cold."
+      },
+      {
+        "Id": 32,
+        "Name": "Rogue",
+        "Image": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/03/Marvel-cosplay-Rogue-de-X-Men-3.jpg",
+        "Alignment": "Hero",
+        "Quote": "I can't touch anyone."
+      },
+      {
+        "Id": 33,
+        "Name": "Doctor Octopus",
+        "Image": "https://cdn.colombia.com/sdi/2020/11/27/spider-man-3-alfred-molina-doctor-octopus-marvel-studios-874148.jpg",
+        "Alignment": "Villain",
+        "Quote": "The power of the Octopus!"
+      },
+      {
+        "Id": 34,
+        "Name": "Vision",
+        "Image": "https://i.pinimg.com/736x/c8/9e/55/c89e550daf78445fe40f9a30c9334236.jpg",
+        "Alignment": "Hero",
+        "Quote": "I am not a man."
+      },
+      {
+        "Id": 35,
+        "Name": "Green Arrow",
+        "Image": "https://qph.cf2.quoracdn.net/main-qimg-36c183b45d588b72c2a97b249773bafa-pjlq",
+        "Alignment": "Hero",
+        "Quote": "You have failed this city."
+      },
+      {
+        "Id": 36,
+        "Name": "Red Hulk",
+        "Image": "https://i.pinimg.com/originals/6b/1b/2d/6b1b2d332da437d42f402a2407ebaf9a.jpg",
+        "Alignment": "Anti-hero",
+        "Quote": "Smash!"
+      },
+      {
+        "Id": 37,
+        "Name": "Winter Soldier",
+        "Image": "https://www.ed92.org/wp-content/uploads/2022/10/1000000000000500000002D0205DB1F1.jpg",
+        "Alignment": "Anti-hero",
+        "Quote": "Longing, rusted, seventeen."
+      },
+      {
+        "Id": 38,
+        "Name": "Gambit",
+        "Image": "https://i.pinimg.com/originals/d2/88/91/d2889180767395f99ef481f6397a7539.jpg",
+        "Alignment": "Hero",
+        "Quote": "Time to deal some cards."
+      },
+      {
+        "Id": 39,
+        "Name": "Carnage",
+        "Image": "https://static.wikia.nocookie.net/sonys-marvel-universe/images/b/b8/Carnage_Main.jpg/revision/latest?cb=20220306220530",
+        "Alignment": "Villain",
+        "Quote": "Carnage rules!"
+      },
+      {
+        "Id": 40,
+        "Name": "Elektra",
+        "Image": "https://i.pinimg.com/originals/5c/2d/bd/5c2dbd244090f7638445ed9e87d31b63.png",
+        "Alignment": "Anti-hero",
+        "Quote": "The hand that kills."
+      },
+      {
+        "Id": 41,
+        "Name": "Beast",
+        "Image": "https://geekositymag.com/wp-content/uploads/2022/09/Beast-Will-Be-Among-MCUs-First-X-Men-01.jpg",
+        "Alignment": "Hero",
+        "Quote": "The beauty of the beast."
+      },
+      {
+        "Id": 42,
+        "Name": "Mystique",
+        "Image": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/03/Cosplayer-logra-darle-vida-a-Mystique-con-un-traje-de-impacto-2.jpg",
+        "Alignment": "Villain",
+        "Quote": "I can be anyone."
+      },
+      {
+        "Id": 43,
+        "Name": "Juggernaut",
+        "Image": "https://i.pinimg.com/550x/a6/ab/59/a6ab594d96017f5e4c7ecef51a69eeda.jpg",
+        "Alignment": "Villain",
+        "Quote": "I'm the Juggernaut, [expletive]!"
+      },
+      {
+        "Id": 44,
+        "Name": "Hawkeye",
+        "Image": "https://images.immediate.co.uk/production/volatile/sites/3/2019/07/avengers-8bb66cd.jpg?quality=90&resize=727,485",
+        "Alignment": "Hero",
+        "Quote": "I never miss."
+      },
+      {
+        "Id": 45,
+        "Name": "Emma Frost",
+        "Image": "https://i.pinimg.com/originals/bb/8c/01/bb8c014b349906b2c58044aca0f626ef.jpg",
+        "Alignment": "Hero",
+        "Quote": "Diamonds are a girl's best friend."
+      },
+      {
+        "Id": 46,
+        "Name": "Rhino",
+        "Image": "https://static.wikia.nocookie.net/marveldatabase/images/1/18/Aleksei_Sytsevich_%28Earth-616%29_from_Miles_Morales_Spider-Man_Vol_1_1_001.jpg/revision/latest?cb=20191010044711",
+        "Alignment": "Villain",
+        "Quote": "I'm unstoppable!"
+      },
+      {
+        "Id": 47,
+        "Name": "Peggy Carter",
+        "Image": "https://i.pinimg.com/736x/c6/16/e1/c616e13c022b2e2c9796967d2ea73b25.jpg",
+        "Alignment": "Hero",
+        "Quote": "I know my value."
+      },
+      {
+        "Id": 48,
+        "Name": "Kate Bishop",
+        "Image": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2021/11/24/1290992573-hawkeye-kate-bishop-halee-steinfeld.jpg",
+        "Alignment": "Hero",
+        "Quote": "I'm the better Hawkeye."
+      },
+      {
+        "Id": 49,
+        "Name": "Moon Knight",
+        "Image": "https://hips.hearstapps.com/hmg-prod/images/moon-knight-1648118039.jpg?crop=1.00xw:0.667xh;0,0&resize=980:*",
+        "Alignment": "Hero",
+        "Quote": "I wear the face of many."
+      },
+      {
+        "Id": 50,
+        "Name": "She-Hulk",
+        "Image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/09/She-Hulk-abogada-Hulka2-scaled.jpeg?fit=2560%2C1440&quality=50&strip=all&ssl=1",
+        "Alignment": "Hero",
+        "Quote": "I'm green and mean."
+      },
+      {
+        "Id": 51,
+        "Name": "Colossus",
+        "Image": "https://admintoytopia.toytopia.co.th/data/img/shop1/product/product8689_800.jpg",
+        "Alignment": "Hero",
+        "Quote": "I am strong like steel."
+      },
+      {
+        "Id": 52,
+        "Name": "War Machine",
+        "Image": "https://static.wikia.nocookie.net/ironman/images/6/68/1118full-james-rhodes--slash--war-machine-Endgame.jpg/revision/latest?cb=20191206172621",
+        "Alignment": "Hero",
+        "Quote": "Time to suit up."
+      },
+      {
+        "Id": 53,
+        "Name": "Quicksilver",
+        "Image": "https://i.pinimg.com/550x/8c/3a/8b/8c3a8b103187094e6e93c601d326abae.jpg",
+        "Alignment": "Hero",
+        "Quote": "I'm the fastest man alive."
+      },
+      {
+        "Id": 54,
+        "Name": "Kitty Pryde",
+        "Image": "https://static.wikia.nocookie.net/doblaje/images/a/ad/MVL-KittyPride.jpg/revision/latest?cb=20141018043310&path-prefix=es",
+        "Alignment": "Hero",
+        "Quote": "I can walk through walls."
+      },
+      {
+        "Id": 55,
+        "Name": "Silver Surfer",
+        "Image": "https://i.pinimg.com/originals/5f/d3/9f/5fd39fd13b0a5866a18794bf4969482e.jpg",
+        "Alignment": "Hero",
+        "Quote": "The Power Cosmic!"
+      },
+      {
+        "Id": 56,
+        "Name": "Jessica Jones",
+        "Image": "https://as01.epimg.net/epik/imagenes/2019/06/26/portada/1561547938_106297_1561548027_noticia_normal_recorte1.jpg",
+        "Alignment": "Hero",
+        "Quote": "I'm no hero."
+      },
+      {
+        "Id": 57,
+        "Name": "Iceman",
+        "Image": "https://www.gaytimes.co.uk/wp-content/uploads/2018/12/iceman.png",
+        "Alignment": "Hero",
+        "Quote": "I'm as cool as ice."
+      },
+      {
+        "Id": 58,
+        "Name": "Cable",
+        "Image": "https://static.wikia.nocookie.net/marveldatabase/images/5/5d/Cable_Reloaded_Vol_1_1_Textless.jpg/revision/latest?cb=20210521181044",
+        "Alignment": "Hero",
+        "Quote": "Time to make things right."
+      },
+      {
+        "Id": 59,
+        "Name": "Star-Lord",
+        "Image": "https://www.denofgeek.com/wp-content/uploads/2023/05/star-lord.jpg",
+        "Alignment": "Hero",
+        "Quote": "I'm Star-Lord, man!"
+      },
+      {
+        "Id": 60,
+        "Name": "Kamala Khan (Ms. Marvel)",
+        "Image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F05%2Fnew-ms-marvel-trailer-kamal-khan-supepowers-revealed-000.jpg?w=960&cbr=1&q=90&fit=max",
+        "Alignment": "Hero",
+        "Quote": "Embiggen!"
+      },
+      {
+        "Id": 61,
+        "Name": "Psylocke (Betsy Braddock)",
+        "Image": "https://static.wikia.nocookie.net/marveldatabase/images/0/08/Elizabeth_Braddock_%28Earth-616%29_from_Hunt_for_Wolverine_Mystery_in_Madripoor_Vol_1_4_Spoiler_Variant_cover_001.jpg/revision/latest?cb=20180823221219",
+        "Alignment": "Hero",
+        "Quote": "The blade is mightier than the mind."
+      },
+      {
+        "Id": 62,
+        "Name": "Mockingbird (Bobbi Morse)",
+        "Image": "https://static.wikia.nocookie.net/marveldatabase/images/7/77/Mockingbird_Vol_1_3_Torque_Variant_Textless.jpg/revision/latest?cb=20160219080522",
+        "Alignment": "Hero",
+        "Quote": "I don't miss a beat."
+      },
+      {
+        "Id": 63,
+        "Name": "Sif",
+        "Image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/07/lady-sif.jpeg",
+        "Alignment": "Hero",
+        "Quote": "For Asgard!"
+      },
+      {
+        "Id": 64,
+        "Name": "X-23 (Laura Kinney)",
+        "Image": "https://cdn.marvel.com/content/1x/x23deadlyregenesis2023001_copy.jpg",
+        "Alignment": "Hero",
+        "Quote": "I'm not your clone."
+      },
+      {
+        "Id": 65,
+        "Name": "Wasp (Janet van Dyne)",
+        "Image": "https://static.wikia.nocookie.net/marveldatabase/images/f/f7/Wasp_Vol_1_1_Nie_Variant_Textless.jpg/revision/latest?cb=20221225122128",
+        "Alignment": "Hero",
+        "Quote": "Tiny but mighty!"
+      },
+      {
+        "Id": 66,
+        "Name": "Valkyrie (Brunnhilde)",
+        "Image": "https://i.pinimg.com/1200x/d1/e9/54/d1e95403368120e71ba63869e12271d9.jpg",
+        "Alignment": "Hero",
+        "Quote": "I choose the worthy."
+      },
+      {
+        "Id": 67,
+        "Name": "Mantis",
+        "Image": "https://i.pinimg.com/originals/1e/b8/ab/1eb8ab540917320937b5993d200fc921.png",
+        "Alignment": "Hero",
+        "Quote": "I sense your feelings."
+      },
+      {
+        "Id": 68,
+        "Name": "Domino (Neena Thurman)",
+        "Image": "https://i.pinimg.com/736x/34/2b/e7/342be7753553608852d2b619f5baf6b7.jpg",
+        "Alignment": "Hero",
+        "Quote": "I'm lucky, literally."
+      },
+      {
+        "Id": 69,
+        "Name": "Silver Sable (Silver Sablinova)",
+        "Image": "https://static.wikia.nocookie.net/p__/images/1/1f/Silver_Sable.png/revision/latest?cb=20181117162308&path-prefix=protagonist",
+        "Alignment": "Hero",
+        "Quote": "I hunt the world's deadliest game."
+      },
+      {
+        "Id": 70,
+        "Name": "Shuri",
+        "Image": "",
+        "Alignment": "Hero",
+        "Quote": "Wakanda forever."
+      },
+      {
+        "Id": 71,
+        "Name": "Songbird (Melissa Gold)",
+        "Image": "https://lumiere-a.akamaihd.net/v1/images/shuri_black_panther_01_f75fe90d.jpeg?region=56,0,1665,937&width=960",
+        "Alignment": "Hero",
+        "Quote": "I control sound and emotion."
+      },
+      {
+        "Id": 72,
+        "Name": "Moondragon (Heather Douglas)",
+        "Image": "https://static.wikia.nocookie.net/marveldatabase/images/3/31/Heather_Douglas_%28Earth-616%29_from_Guardians_of_the_Galaxy_Vol_4_5_001.jpg/revision/latest?cb=20160211051515",
+        "Alignment": "Hero",
+        "Quote": "I am one with the cosmos."
+      },
+      {
+        "Id": 73,
+        "Name": "Jubilee (Jubilation Lee)",
+        "Image": "https://i.pinimg.com/736x/70/bc/22/70bc22af5452ff30f4691e4d10321756.jpg",
+        "Alignment": "Hero",
+        "Quote": "Fireworks on the loose!"
+      },
+      {
+        "Id": 74,
+        "Name": "Hellcat (Patsy Walker)",
+        "Image": "https://cdn.marvel.com/u/prod/marvel/i/mg/c/30/56254c5fac4cc/clean.jpg",
+        "Alignment": "Hero",
+        "Quote": "I'll scratch your eyes out!"
+      },
+      {
+        "Id": 75,
+        "Name": "Spider-Woman (Jessica Drew)",
+        "Image": "https://static.wikia.nocookie.net/p__/images/1/1c/Spider-Woman_Vol_7_5_Cover_B_Textless.jpg/revision/latest?cb=20200929025433&path-prefix=protagonist",
+        "Alignment": "Hero",
+        "Quote": "Arachnid avenger at your service."
+      }
+  ]

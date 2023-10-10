@@ -1,0 +1,85 @@
+@import '../../index.scss';
+
+.container-homepage{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+    row-gap: 3rem;
+    align-items: center;
+    height: 100%;
+
+    .button-start{
+        background-color: $purple-color;
+        outline: none;
+        border: 1px solid $white-color;
+        color: $white-color;
+        font-size: 1.6rem;
+        padding: 0.6rem 2rem;
+        border-radius: 50px;
+        cursor: pointer;
+
+        &:hover{
+            border: 1px solid $black-color;
+            color: $black-color;
+            background-color: $white-color;
+            transition: 0.3s;
+        }
+    }
+    .button-start.invisible{
+        display: none;
+        transition: 0.3s ease;
+    }
+
+    .container-categories.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .container-categories{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        
+        button{
+            padding: 0.5rem 2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            outline: none;
+            border: 1px solid $white-color;
+            color: $white-color;
+            font-size: 1.3rem;
+
+            &:hover{
+                color: $white-color;
+                background-color: $black-color;
+                transition: 0.3s;
+            }
+        }
+
+        .c25{
+            background-color: $sky-color;
+        }
+
+        .c50{
+            background-color: $green-color;
+        }
+
+        .c75{
+            background-color: $orange-color;
+        }
+
+        .c100{
+            background-color: $red-color;
+        }
+
+        .call{
+            background-color: $maroon-color;
+        }
+
+        
+    }
+}
