@@ -7,7 +7,7 @@ const mysql2_1 = __importDefault(require("mysql2"));
 const db = mysql2_1.default.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'mirror_image_830',
-    database: 'whoiswhat'
+    password: 'root',
+    database: 'whoiswhat',
 });
 exports.default = db;

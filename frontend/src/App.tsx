@@ -2,6 +2,7 @@ import Homepage from "./pages/homepage/Homepage";
 import React from 'react';
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import InGame from "./pages/InGame/InGame";
+import Results from "./pages/results/Results";
 
 const App: React.FC = () => {
 
@@ -35,6 +36,10 @@ const App: React.FC = () => {
         {
           path: '/playthrough',
           element: <InGame/>
+        },
+        {
+          path: '/results',
+          element: <Results/>
         }
       ]
     },

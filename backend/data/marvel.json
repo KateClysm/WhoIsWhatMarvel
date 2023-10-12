@@ -31,14 +31,14 @@
         "Id": 5,
         "Name": "Loki (From the movies)",
         "Image": "https://i.insider.com/60c0bb836b60c70019c29cf0?width=700",
-        "Alignment": "villain",
+        "Alignment": "Villain",
         "Quote": "Glorious purpose!"
       },
       {
         "Id": 6,
         "Name": "Loki (From the serie 'Loki')",
         "Image": "https://elcomercio.pe/resizer/GVmsvUvB9CcPkl9ve1CMXnIn1IU=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/PJK54BMEE5FAHEL7VDU7COIVIQ.jpg",
-        "Alignment": "Anti-hero",
+        "Alignment": "Anti-Hero",
         "Quote": "Glorious purpose!"
       },
       {
@@ -101,7 +101,7 @@
         "Id": 15,
         "Name": "Deadpool",
         "Image": "https://www.fayerwayer.com/resizer/k9416iTlIswpB8NuaYCA5nunCaM=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/OCHUVADGABGXRD35PGDIRVGWBA.jpg",
-        "Alignment": "Anti-hero",
+        "Alignment": "Anti-Hero",
         "Quote": "Get ready for chimichangas!"
       },
       {
@@ -122,7 +122,7 @@
         "Id": 18,
         "Name": "Scarlet Witch",
         "Image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/97/Scarlet_Witch.jpg/revision/latest?cb=20220501012641",
-        "Alignment": "Anti-hero",
+        "Alignment": "Anti-Hero",
         "Quote": "No more mutants!"
       },
       {
@@ -164,7 +164,7 @@
         "Id": 24,
         "Name": "Venom",
         "Image": "https://hips.hearstapps.com/hmg-prod/images/venom-2-fotogramas-1634239260.png?crop=1xw:1xh;center,top&resize=1200:*",
-        "Alignment": "Anti-hero",
+        "Alignment": "Anti-Hero",
         "Quote": "We are Venom."
       },
       {
@@ -213,7 +213,7 @@
         "Id": 31,
         "Name": "Punisher",
         "Image": "https://www.infobae.com/new-resizer/NGwd0G4Y8jSJC_evQX-wI2k6UlU=/1200x900/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/PSV6LJU7M5FY3LMERUFJ455UPI.jpg",
-        "Alignment": "Anti-hero",
+        "Alignment": "Anti-Hero",
         "Quote": "Justice is best served cold."
       },
       {
@@ -248,14 +248,14 @@
         "Id": 36,
         "Name": "Red Hulk",
         "Image": "https://i.pinimg.com/originals/6b/1b/2d/6b1b2d332da437d42f402a2407ebaf9a.jpg",
-        "Alignment": "Anti-hero",
+        "Alignment": "Anti-Hero",
         "Quote": "Smash!"
       },
       {
         "Id": 37,
         "Name": "Winter Soldier",
         "Image": "https://www.ed92.org/wp-content/uploads/2022/10/1000000000000500000002D0205DB1F1.jpg",
-        "Alignment": "Anti-hero",
+        "Alignment": "Anti-Hero",
         "Quote": "Longing, rusted, seventeen."
       },
       {
@@ -276,7 +276,7 @@
         "Id": 40,
         "Name": "Elektra",
         "Image": "https://i.pinimg.com/originals/5c/2d/bd/5c2dbd244090f7638445ed9e87d31b63.png",
-        "Alignment": "Anti-hero",
+        "Alignment": "Anti-Hero",
         "Quote": "The hand that kills."
       },
       {
