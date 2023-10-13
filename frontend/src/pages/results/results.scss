@@ -2,9 +2,49 @@
 
 .container-results{
      background-color: $grey-color;
-     min-height: 85vh;
+     height: 79vh;
      width: 100%;
      display: flex;
+     flex-direction: column;
      justify-content: center;
      align-items: center;
+     row-gap: 1.5rem;
+
+     p, h2{
+          span{
+               color: $red-color;
+          }
+     }
+     .successes{
+          color: $red-color;
+     }
+     .nonickname{
+          font-size: 1.4rem;
+          color: $red-color;
+     }
+     button{
+          outline: none;
+          border: 1px solid $red-color;
+          background-color: $black-color;
+          color: $red-color;
+          border-radius: 50px;
+          padding: 0.6rem 2rem;
+          cursor: pointer;
+
+          &:hover{
+               background-color: $white-color;
+               transition: 0.3s
+          }
+     }
 }
+
+@media (min-width: 768px){
+     .container-results{
+       h2{
+         font-size: 3.5rem;
+       }
+       p, h3, button{
+         font-size: 1.8rem;
+       }
+     }
+   }

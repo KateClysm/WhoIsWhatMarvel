@@ -1,38 +1,49 @@
 import React, { useState } from "react";
-import "./homepage.scss";
 import { useNavigate } from "react-router-dom";
+import "./homepage.scss";
+
 
 const Homepage: React.FC = () => {
-  const [categories, setCategories] = useState(false);
   const [start, setStart] = useState(false);
+  const [displayButtons, setDisplayButtons] = useState(false);
+  const [opacityButtons, setOpacityButtons] = useState(false);
+  const [nickname, setNickname] = useState("");
 
-  // Use the useNavigate hook to get the navigation function
   const navigate = useNavigate();
 
   const handleStart = () => {
-    setCategories(true);
     setStart(true);
+    setDisplayButtons(true);
+    setTimeout(() => {
+      setOpacityButtons(true);
+    }, 1);
   };
 
-  const handleCharacters = (characterCount: number) => {
-    // Agrega registros de depuración para verificar la cantidad de personajes
-    console.log('Cantidad de personajes seleccionados desde homepage:', characterCount);
-
-    navigate("/playthrough", { state: { characterCount } });
+  const handleCharacters = (characterQ: number) => {
+    if (displayButtons &&  opacityButtons) {
+      navigate("/playthrough", { state: { characterQ, nickname } });
+    }
   };
 
   return (
     <div className="container-homepage">
       <h2>Want to Find out how much you know about Heroism in Marvel?</h2>
 
-      <button
-        className={`button-start ${start ? "invisible" : ""}`}
-        onClick={handleStart}
-      >
-        START
-      </button>
+      <p>Would you like to write a nickname to appear in our winning records?</p>
+      
+      <input
+        type="text"
+        value={nickname}
+        onChange={(e) => setNickname(e.target.value)}
+        placeholder="Enter your nickname"
+      />
+        
 
-      <div className={`container-categories ${categories ? "visible" : ""}`}>
+      <button className={`button-start ${start ? "invisible" : ""}`}
+      onClick={handleStart}>START</button>
+
+      <div className={`container-categories ${displayButtons ? "display" : ""} ${opacityButtons ? "opacity" : ""}`}>
+
         <button className="c25" onClick={() => handleCharacters(25)}>
           25 Characters
         </button>

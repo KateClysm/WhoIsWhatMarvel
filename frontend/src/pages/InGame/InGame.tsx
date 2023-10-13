@@ -15,53 +15,70 @@ interface PersonajeMarvel{
 const InGame: React.FC = () => {
   const navigate = useNavigate();
 
-  const [personajesJugados, setPersonajesJugados] = useState(0); //personajes ya jugados
+  const [playedCharacters, setPlayedCharacters] = useState(0); //personajes ya jugados
   const [marvelData, setMarvelData] = useState<PersonajeMarvel[]>([]); //Array de los personajes con los que jugaremos
-  const [aciertos, setAciertos] = useState(0); //aciertos de alineaciones
-  const [indicePjActual, setIndicePjActual] = useState(0); //índice del array
+  const [successes, setSuccesses] = useState(0); 
+  const [indexCharacter, setIndexCharacter] = useState(0); 
+  const [startTime, setStartTime] = useState(0); // Tiempo de inicio
+  const [time, setTime] = useState("0:00"); // Tiempo total
 
   const location = useLocation();
-  const cantidadPersonajes = location.state ? location.state.characterCount : 25; 
-  console.log('Cantidad de personajes pasados desde homepage:', cantidadPersonajes);
+  const characterQ = location.state ? location.state.characterQ : 25; 
+  const nickname = location.state ? location.state.nickname : null;
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:8080/api/characters?count=${cantidadPersonajes}`);
+        const response = await fetch(`http://localhost:8080/api/characters/data?qParam=${characterQ}`);
         const data = await response.json();
         setMarvelData(data);
+        setStartTime(Date.now());
       } catch (error) {
         console.error('Error fetching data:', error);
       }
     };
     fetchData();
-  }, [cantidadPersonajes]);
+  }, [characterQ]);
 
-  const personajeActual = marvelData[indicePjActual];
+  const ActualCharacter = marvelData[indexCharacter];
   
+  useEffect(() => {
+    if (startTime) {
+      const currentTime = Date.now();
+      const totalTimeInMilliseconds = currentTime - startTime;
+      const minutes = Math.floor(totalTimeInMilliseconds / 60000);
+      const seconds = ((totalTimeInMilliseconds % 60000) / 1000).toFixed(0);
+      setTime(`${minutes}:${seconds}`);
+    }
+  });
+
   const handleSeleccionAlineacion = async (alignment: string) => {
-    if (personajeActual && personajeActual.Alignment === alignment) {
-      setAciertos(aciertos + 1);
+    if (ActualCharacter && ActualCharacter.Alignment === alignment) {
+      setSuccesses(successes + 1);
     }
   
-    if (indicePjActual < marvelData.length - 1) {
-      setIndicePjActual(indicePjActual + 1);
+    if (indexCharacter < marvelData.length - 1) {
+      setIndexCharacter(indexCharacter + 1);
     }
-    setPersonajesJugados(personajesJugados + 1);
+    setPlayedCharacters(playedCharacters + 1);
   
-    if (personajesJugados + 1 === cantidadPersonajes) {
-  
-      // Mueve la redirección aquí para garantizar que el valor se actualice antes de la redirección
-      navigate("/results", { state: { aciertos, cantidadPersonajes, partidaFinalizada: true } });
+    if (playedCharacters + 1 === characterQ) {
+      navigate("/results", {
+        state: { successes, characterQ, endgame: true, nickname, time }
+      });
     }
   };
 
   return (
     <div className="container-ingame">
-      <CharacterCard character={personajeActual} />
+      <CharacterCard character={ActualCharacter} />
 
       <div className="your-guess">
-        <p>Counter: {personajesJugados}/{cantidadPersonajes}</p>
+
+        {nickname &&(
+          <h3>{`Hi ${nickname}`}</h3>
+        )}
+        <p>Counter: {playedCharacters}/{characterQ}</p>
 
         <p>What Do You Think?</p>
 

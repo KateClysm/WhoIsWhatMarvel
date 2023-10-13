@@ -1,15 +1,13 @@
 $black-color: #0a0a0a;
-$grey-color: #181818;
+$grey-color: #111111;
 $white-color: #F3F3F3;
 $purple-color: #e21460;
-$blue-color: #012e88;
 $sky-color: #00b1c5;
 $green-color: #00c54c;
-$orange-color: #ff9100;
 $red-color: #ff0000;
 $maroon-color: #ad0000;
 
-$font-size-mobile: 8px;
+$font-size-mobile: 10px;
 $font-size-tablet: 12px;
 $font-size-laptop: 14px;
 $font-size-desktop: 16px;
@@ -22,6 +20,7 @@ $font-size-huge-desktop: 20px;
   box-sizing: border-box;
   letter-spacing: 0.1rem;
   color: $white-color;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 html, body {
@@ -42,7 +41,7 @@ html {font-size: $font-size-mobile;}
   height: 100vh;
 
   .container-title{
-    height: 15vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,17 +60,16 @@ html {font-size: $font-size-mobile;}
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    height: 80vh;
   }
 
 }
-h2{
-  font-family: 'Bangers', cursive;   
+h2{ 
+  font-size: 2.5rem;
   letter-spacing: 0.3rem;
 }
 p, h3, button{
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 768px){

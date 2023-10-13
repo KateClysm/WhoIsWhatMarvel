@@ -1,6 +1,7 @@
 import express from 'express';
-import whoIsWhatRouter from './routes/whoIsWhatRoutes';
+import charactersRoutes from './routes/charactersRoutes';
 import cors from 'cors';
+import winnersRoutes from './routes/winnersRoutes';
 
 const app = express();
 app.use(express.json());
@@ -16,7 +17,8 @@ app.use(cors(corsOptions));
 
 const PORT = process.env.PORT || 8080;
 
-app.use('/api', whoIsWhatRouter);
+app.use('/api/characters', charactersRoutes);
+app.use('/api/winners', winnersRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
