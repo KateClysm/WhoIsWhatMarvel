@@ -6,10 +6,10 @@ export class WinnersModel {
         try {
           const [rows] = await db.promise().query('SELECT * FROM winner WHERE id = 1');
           const arrayWinner = rows as RowDataPacket[];
-          if (arrayWinner.length > 0) { //Si se encontró un ganador
+          if (arrayWinner.length > 0) { 
             return arrayWinner[0];
           }
-          return null; //Si no, se devuelve null
+          return null; 
         } catch (error) {
           throw error;
         }

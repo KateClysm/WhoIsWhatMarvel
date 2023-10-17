@@ -20,10 +20,10 @@ class WinnersModel {
             try {
                 const [rows] = yield db_1.default.promise().query('SELECT * FROM winner WHERE id = 1');
                 const arrayWinner = rows;
-                if (arrayWinner.length > 0) { //Si se encontró un ganador
+                if (arrayWinner.length > 0) {
                     return arrayWinner[0];
                 }
-                return null; //Si no, se devuelve null
+                return null;
             }
             catch (error) {
                 throw error;
