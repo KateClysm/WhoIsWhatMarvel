@@ -14,9 +14,33 @@ Express & TypeScript
 <br/>
 #FrontEnd:
 <br/>
-<br/>
 React+Vite+TypeScript+Sass
 <br/>
 #Database:
+<br/>
+MySQL
+<br/>
+<br/>
+<br/>
+<br/>
+<h3>¿Quieres descubrir cuánto sabes sobre el heroísmo en los personajes de Marvel?</h3>
+<br/>
+<br/>
+Este es un juego rápido, desarrollado en poco tiempo como un proyecto express durante la capacitación de 'Empujar Coders'. Se basa en adivinar la alineación (héroe, antihéroe o villano) de los personajes de Marvel.
+<br/>
+<br/>
+<h4>Las tecnologías utilizadas fueron:</h4>
+<br/>
+#Backend:
+<br/>
+Express y TypeScript
+<br/>
+<br/>
+#FrontEnd:
+<br/>
+React+Vite+TypeScript+Sass
+<br/>
+<br/>
+#Base de Datos:
 <br/>
 MySQL
