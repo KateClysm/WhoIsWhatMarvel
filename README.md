@@ -10,13 +10,15 @@ This is a quick game, developed in a short amount of time as an express project 
 <br/>
 #Backend:
 <br/>
-Express & TypeScript
+Express y TypeScript
+<br/>
 <br/>
 #FrontEnd:
 <br/>
 React+Vite+TypeScript+Sass
 <br/>
-#Database:
+<br/>
+#DataBase:
 <br/>
 MySQL
 <br/>
