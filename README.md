@@ -6,13 +6,15 @@
 This is a quick game, developed in a short amount of time as an express project during the 'Empujar Coders' training. It is based on guessing the alignment (hero, anti-hero, or villain) of Marvel characters.
 <br/>
 <br/>
-The technologies used were:
+<h4>The technologies used were:</h4>
+<br/>
 <br/>
 #Backend:
 <br/>
 Express & TypeScript
 <br/>
 #FrontEnd:
+<br/>
 <br/>
 React+Vite+TypeScript+Sass
 <br/>
