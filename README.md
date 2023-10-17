@@ -8,7 +8,6 @@ This is a quick game, developed in a short amount of time as an express project 
 <br/>
 <h4>The technologies used were:</h4>
 <br/>
-<br/>
 #Backend:
 <br/>
 Express & TypeScript
