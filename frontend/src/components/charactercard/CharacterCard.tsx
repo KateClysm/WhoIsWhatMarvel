@@ -1,15 +1,8 @@
 import React from 'react';
 import './charactercard.scss';
+import { IMarvelCharacter } from '../../interfaces/IMarvelCharacter';
 
-interface MarvelCharacter {
-  Id: number;
-  Name: string;
-  Image: string;
-  Alignment: string;
-  Quote: string;
-}
-
-const CharacterCard: React.FC<{character:MarvelCharacter}> = ({ character }) => {
+const CharacterCard: React.FC<{character:IMarvelCharacter}> = ({ character }) => {
   if (!character) {
     return (
       <div className="character-card">
@@ -17,7 +10,6 @@ const CharacterCard: React.FC<{character:MarvelCharacter}> = ({ character }) => 
       </div>
     );
   }
-
 
   return (
     <div className="character-card">

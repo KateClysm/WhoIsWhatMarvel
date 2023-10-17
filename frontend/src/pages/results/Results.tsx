@@ -1,18 +1,22 @@
 import React, { useEffect, useState } from "react";
-import "./results.scss";
 import { useLocation, useNavigate } from "react-router-dom";
+import "./results.scss";
 
 const Results: React.FC = () => {
     const location = useLocation();
     const navigate = useNavigate(); 
 
-    const [winner, setWinner] = useState({ nickname: "", score: 0 });
+    //Retrieves the info from the game.
     const successes = location.state ? location.state.successes : 0;
     const characterQ = location.state ? location.state.characterQ : 0;
     const endgame = location.state ? location.state.endgame : false;
     const nickname = location.state ? location.state.nickname : null;
     const time = location.state ? location.state.time : null;
 
+    //Declares the const winner with base values.
+    const [winner, setWinner] = useState({ nickname: "", score: 0 });
+    
+    //Sends a request to the backend to retrieve the current winner from the database and then sets it as the value of the 'winner' constant.
     useEffect(() => {
         console.log('Fetching winner data...');
         const fetchActualWinnerData = async () => {
@@ -25,32 +29,34 @@ const Results: React.FC = () => {
             console.error('Error fetching winner data:', error);
           }
         };
-      
         fetchActualWinnerData();
       }, []);
       
-      useEffect(() => {
-        if (nickname && winner.score < successes) {
-          console.log('Updating winner...');
-          const updateWinner = async () => {
-            try {
-              await fetch('http://localhost:8080/api/winners/updateWinner', {
-                method: 'PUT',
-                headers: {
-                  'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ nickname, score: successes, time }),
-              });
-              console.log('The Winner was updated');
-            } catch (error) {
-              console.error('Error updating winner data:', error);
-            }
-          };
-      
-          updateWinner();
-        }
-      }, [successes, nickname, time]);
+
+    //If the user has entered a nickname and scored higher than the current winner in the database, it sends the information to the backend, which will be responsible for updating the database.
+    useEffect(() => {
+      if (nickname && winner.score < successes) {
+        console.log('Updating winner...');
+        const updateWinner = async () => {
+          try {
+            await fetch('http://localhost:8080/api/winners/updateWinner', {
+              method: 'PUT',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ nickname, score: successes, time }),
+            });
+            console.log('The Winner was updated');
+          } catch (error) {
+            console.error('Error updating winner data:', error);
+          }
+        };
     
+        updateWinner();
+      }
+    }, [successes, nickname, time]);
+    
+
     return (
         <div className="container-results">
         {endgame ? (

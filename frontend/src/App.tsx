@@ -1,6 +1,6 @@
-import Homepage from "./pages/homepage/Homepage";
 import React from 'react';
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Homepage from "./pages/homepage/Homepage";
 import InGame from "./pages/InGame/InGame";
 import Results from "./pages/results/Results";
 

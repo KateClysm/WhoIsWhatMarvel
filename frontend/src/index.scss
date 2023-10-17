@@ -5,7 +5,7 @@ $purple-color: #e21460;
 $sky-color: #00b1c5;
 $green-color: #00c54c;
 $red-color: #ff0000;
-$maroon-color: #ad0000;
+$maroon-color: #b80000;
 
 $font-size-mobile: 10px;
 $font-size-tablet: 12px;
@@ -62,20 +62,12 @@ html {font-size: $font-size-mobile;}
     justify-content: center;
     height: 80vh;
   }
-
 }
+
 h2{ 
   font-size: 2.5rem;
   letter-spacing: 0.3rem;
 }
 p, h3, button{
   font-size: 1.5rem;
-}
-
-@media (min-width: 768px){
-  .container-app{
-    .title{
-      font-size: 5rem;
-    }
-  }
 }

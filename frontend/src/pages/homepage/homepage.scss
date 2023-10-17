@@ -3,7 +3,9 @@
 .container-homepage{
     display: flex;
     flex-direction: column;
+    padding: 0 1rem;
     padding-top: 20%;
+    
     row-gap: 3rem;
     align-items: center;
     width: 100%;
@@ -24,6 +26,12 @@
             opacity: 0.7;
             width: fit-content;
           }
+    }
+    ::-webkit-input-placeholder{
+        text-align: center;
+    }
+    :-moz-placeholder{
+        text-align: center;
     }
 
     .button-start{

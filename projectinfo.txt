@@ -1,5 +1,10 @@
+#ICON
 This Project uses:
-
 <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
-
 For the Icon Page.
+
+#DATA BASE
+You can find the SQL database file in the 'db' folder.
+
+#IMAGE RIGHTS
+Hey there! As you can see, I've created a custom API for Marvel Characters, using image links. Please be aware that these links might break if the image owner removes the picture. However, feel free to make any changes you'd like! And always remember, I don't own any of these images!
