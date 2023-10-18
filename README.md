@@ -6,6 +6,9 @@
 This is a quick game developed as an express project during the 'Empujar Coders' training. The primary goal of this project was to practice connecting the frontend with the backend and working with a database. In this game, the objective is to correctly identify the alignment (hero, anti-hero, or villain) of Marvel characters.
 <br/>
 <br/>
+![ProjectPhotos](https://github.com/KateClysm/WhoIsWhatMarvel/assets/109751647/6f87a591-e1b0-4622-be7f-8300177624ee)
+<br/>
+<br/>
 <h4>The technologies used were:</h4>
 <br/>
 #Backend:
