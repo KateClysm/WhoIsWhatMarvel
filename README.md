@@ -25,6 +25,7 @@ React+Vite+TypeScript+Sass
 <br/>
 MySQL
 <br/>
+<br/>
 
 ![ProjectInGame](https://github.com/KateClysm/WhoIsWhatMarvel/assets/109751647/76c5aec5-388a-4a5f-9e06-a3f59c70031a)
 
