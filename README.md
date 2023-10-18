@@ -34,6 +34,7 @@ MySQL
 <br/>
 Esta es un juego rápido desarrollado como proyecto express durante la capacitación de 'Empujar Coders'. El objetivo principal de este proyecto fue practicar la conexión entre el frontend y el backend, así como trabajar con una base de datos. En este juego, el objetivo es identificar correctamente la alineación (héroe, antihéroe o villano) de los personajes de Marvel.
 <br/>
+<br/>
 
 ![ProjectResults](https://github.com/KateClysm/WhoIsWhatMarvel/assets/109751647/9cf30c4d-503b-4b04-b116-6c1ee11d4f54)
 
